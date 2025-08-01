@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif'],
+				heading: ['Nunito', 'Inter', 'system-ui', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -52,6 +56,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'pastel-purple': 'hsl(var(--pastel-purple))',
+				'pastel-mint': 'hsl(var(--pastel-mint))',
+				'pastel-coral': 'hsl(var(--pastel-coral))',
+				'pastel-lavender': 'hsl(var(--pastel-lavender))',
+				'pastel-peach': 'hsl(var(--pastel-peach))',
+				'soft-yellow': 'hsl(var(--soft-yellow))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

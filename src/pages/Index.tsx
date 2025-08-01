@@ -1,12 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/HeroSection";
+import ConceptSection from "@/components/ConceptSection";
+import UserJourneySection from "@/components/UserJourneySection";
+import GameMechanicsSection from "@/components/GameMechanicsSection";
+import RecommendationEngineSection from "@/components/RecommendationEngineSection";
+import TechStackSection from "@/components/TechStackSection";
+import PrivacySection from "@/components/PrivacySection";
+import EngagementSection from "@/components/EngagementSection";
+import CallToActionSection from "@/components/CallToActionSection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <HeroSection />
+      <ConceptSection />
+      <UserJourneySection />
+      <GameMechanicsSection />
+      <RecommendationEngineSection />
+      <TechStackSection />
+      <PrivacySection />
+      <EngagementSection />
+      <CallToActionSection />
     </div>
   );
 };
