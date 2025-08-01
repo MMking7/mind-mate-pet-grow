@@ -3,7 +3,7 @@ import ConceptSection from "@/components/ConceptSection";
 import UserJourneySection from "@/components/UserJourneySection";
 import GameMechanicsSection from "@/components/GameMechanicsSection";
 import RecommendationEngineSection from "@/components/RecommendationEngineSection";
-import TechStackSection from "@/components/TechStackSection";
+
 import PrivacySection from "@/components/PrivacySection";
 import EngagementSection from "@/components/EngagementSection";
 import CallToActionSection from "@/components/CallToActionSection";
@@ -16,7 +16,7 @@ const Index = () => {
       <UserJourneySection />
       <GameMechanicsSection />
       <RecommendationEngineSection />
-      <TechStackSection />
+      
       <PrivacySection />
       <EngagementSection />
       <CallToActionSection />
