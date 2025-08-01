@@ -4,7 +4,7 @@ import UserJourneySection from "@/components/UserJourneySection";
 import GameMechanicsSection from "@/components/GameMechanicsSection";
 import RecommendationEngineSection from "@/components/RecommendationEngineSection";
 
-import PrivacySection from "@/components/PrivacySection";
+
 import EngagementSection from "@/components/EngagementSection";
 import CallToActionSection from "@/components/CallToActionSection";
 
@@ -17,7 +17,7 @@ const Index = () => {
       <GameMechanicsSection />
       <RecommendationEngineSection />
       
-      <PrivacySection />
+      
       <EngagementSection />
       <CallToActionSection />
     </div>
